@@ -1,0 +1,7 @@
+pt-BR:
+  conversor:
+    entrada: "Digite a entrada em kwegoniano:"
+    exemplo: "Ex.: polsx polsx pol jin kil"
+
+  botoes:
+    converter: "Converter para decimal"

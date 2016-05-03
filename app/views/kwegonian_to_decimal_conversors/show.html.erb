@@ -1,0 +1,24 @@
+<br /><br /><br />
+<%if !@conversor.saida_decimal.nil? %>
+	<div class="container">
+	    <div class="col-md-6">
+	    	<div class="texto-resultado">
+				O número decimal correspondente a <b><%= @conversor.entrada_kwegonian %></b> é
+			</div>
+			<br /><br /><br />
+			<center>
+				<div class="decimal-resultado">
+					<%= @conversor.saida_decimal %>
+				</div>
+			</center>
+		</div>
+	</div>
+<% else %>
+	<div class="container">
+	    <div class="col-md-6">
+	    	<div class="texto-resultado">
+				O número kwegoniano <b><%= @conversor.entrada_kwegonian %></b> é inválido.
+			</div>			
+		</div>
+	</div>
+<% end %>

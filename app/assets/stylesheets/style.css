@@ -1,0 +1,9 @@
+.texto-resultado {
+	font-size:18px;
+}
+
+.decimal-resultado {
+	font-size:34px; 
+	font-weight: bold; 
+	color: green;
+}

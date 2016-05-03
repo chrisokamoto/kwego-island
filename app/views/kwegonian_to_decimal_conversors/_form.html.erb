@@ -1,0 +1,11 @@
+<br /><br /><br />
+<div class="container">
+    <div class="col-md-6">
+		<%= form_for(@conversor) do |f| %>
+		  <%= f.label :entrada_kwegonian, t('conversor.entrada'), class: 'control-label' %>
+		  <%= f.text_field :entrada_kwegonian, class: 'form-control', placeholder: t('conversor.exemplo'), :autofocus => true %>
+		  <br /><br />
+		  <%= f.submit t('botoes.converter'), class: 'btn btn-success'%>
+		<% end %>
+	</div>
+</div>
